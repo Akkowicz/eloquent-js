@@ -1,0 +1,19 @@
+{
+  "name": "eloquent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "02_triangle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkowicz/eloquent-js.git"
+  },
+  "author": "Mateusz Przybyłowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akkowicz/eloquent-js/issues"
+  },
+  "homepage": "https://github.com/Akkowicz/eloquent-js#readme"
+}
