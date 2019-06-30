@@ -2,7 +2,7 @@
   "name": "eloquent",
   "version": "1.0.0",
   "description": "",
-  "main": "02_triangle.js",
+  "main": "04_deep_comparison.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
