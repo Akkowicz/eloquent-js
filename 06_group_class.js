@@ -1,17 +1,20 @@
 class Group {
     constructor() {
+        this.members = [];
     }
 
     add(val) {
-        this[val] = val;
+        if (!this.has(val)) {
+            this.members.push(val);
+        }
     }
 
     delete(val) {
-        delete this[val];
+        this.members = this.members.filter(v => v !== val);
     }
 
     has(val) {
-        return Object.prototype.hasOwnProperty.call(this, val);
+        return this.members.includes(val);
     }
 
     static from(iterable) {
